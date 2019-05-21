@@ -1,7 +1,7 @@
 
 'use strict';
 
-const vehicleFactory = function(name, wheels){
+const vehicleFactory = (name, wheels) => {
   return {
     name,
     wheels,
@@ -16,19 +16,21 @@ const vehicleFactory = function(name, wheels){
 
 function CarFactory(name, wheels) {
   let car = Object.assign(
-    vehicleFactory(name, wheels)
+    vehicleFactory(name, 4)
   );
+  return car; 
 }
 
 const motorcycleFactory = function(name, wheels) {
   let motorcycle = Object.assign(
-    vehicleFactory(name, wheels),
+    vehicleFactory(name, 2),
     {
       wheelie: function(){
         return 'Wheee!';
       },
     }
   );
+  return motorcycle;
 };
 
 module.exports = {CarFactory, motorcycleFactory};
