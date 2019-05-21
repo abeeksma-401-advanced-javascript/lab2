@@ -1,0 +1,24 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "class2 lab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abeeksma-401-advanced-javascript/lab2.git"
+  },
+  "author": "alexander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abeeksma-401-advanced-javascript/lab2/issues"
+  },
+  "homepage": "https://github.com/abeeksma-401-advanced-javascript/lab2#readme",
+  "dependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0",
+    "node": "^12.2.0"
+  }
+}
