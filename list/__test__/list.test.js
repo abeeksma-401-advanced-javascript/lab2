@@ -20,4 +20,5 @@ describe('List Data Structure', () => {
     expect(stuff.data[1]).toEqual('b');
   });
 
+  it('moves the first element from and array and returns that element')
 });
